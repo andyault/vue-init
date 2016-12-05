@@ -20,5 +20,6 @@ yarn start
 ```
   
 ## Todo: 
-* SASS/SCSS support if needed
+* ~~SASS/SCSS support if needed~~
+  * not needed - just `yarn install scss-loader` and add lang="scss" to your component :)
 * Mongoose boilerplate?
