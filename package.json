@@ -1,0 +1,23 @@
+{
+  "name": "gwvrb",
+  "version": "1.0.0",
+  "description": "A starting point for websites that use Gulp, Webpack, Babel, Vue, and Vue-router.",
+  "main": "index.js",
+  "author": "Andrew Ault",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "vue": "^2.1.4",
+    "vue-router": "^2.1.1"
+  }
+}
