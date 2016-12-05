@@ -33,7 +33,7 @@ const cfg = {
 		module: {
 			loaders: [
 				{
-					test: 	/\.(vue|js)$/,
+					test: 	/\.js$/,
 					loader: 'babel-loader',
 					query: {
 						presets: ['latest']
@@ -44,6 +44,12 @@ const cfg = {
 					loader: 'vue-loader'
 				}
 			]
+		},
+
+		vue: {
+			loaders: {
+				js: 'babel-loader?presets[]=latest'
+			}
 		}
 	}
 }

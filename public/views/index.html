@@ -10,9 +10,6 @@
 		<script src="/node_assets/vue/dist/vue.js"></script>
 		<script src="/node_assets/vue-router/dist/vue-router.js"></script>
 
-		<!-- other js -->
-		<script src="/assets/js/bundle.js"></script>
-
 		<title>New Vue App</title>
 	</head>
 
@@ -23,6 +20,12 @@
 			</nav>
 		</header>
 
-		<router-view id="view"></router-view>
+		<main>
+			<noscript>Unfortunately, JavaScript is required to view this page correctly.</noscript>
+
+			<router-view></router-view>
+		</main>
+
+		<script src="/assets/js/bundle.js" defer></script>
 	</body>
 </html>

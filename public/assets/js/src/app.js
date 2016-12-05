@@ -5,6 +5,6 @@ import router from './routes';
 
 //our app
 const app = new Vue({
-	el: 	'#view',
+	el: 	'main',
 	router: router
-})
+});

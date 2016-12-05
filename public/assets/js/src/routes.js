@@ -1,5 +1,9 @@
 'use strict';
 
 export default new VueRouter({
-	routes: []
-})
+	mode: 	'history',
+
+	routes: [
+		{ path: '/', component: require('../../../pages/example.vue') } //todo? - ugly
+	]
+});

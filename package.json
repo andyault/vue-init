@@ -12,7 +12,10 @@
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
     "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.26.1",
     "gulp": "^3.9.1",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.4",
     "webpack": "^1.13.3"
   },
   "dependencies": {
