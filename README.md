@@ -1,5 +1,5 @@
 # vue-init
-A starting point for vue apps with routing, webpack, gulp, babel, etc
+A starting point for vue apps with routing, webpack, gulp, babel, etc.
 
 ## What is this?
 This is my solution to the problem that is modern web stacks. This should serve as a starting point for most websites I'll need.
