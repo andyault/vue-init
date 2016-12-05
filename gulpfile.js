@@ -6,7 +6,7 @@ const exec 		= require('child_process').exec;
 //used a bunch
 const paths = {
 	watch: {
-		front: 	path.join(__dirname, './public/assets/js/src/**/*.js'),
+		front: 	path.join(__dirname, './public/**/*.@(js|vue)'),
 		back: 	path.join(__dirname, './app/**/*.js')
 	},
 
