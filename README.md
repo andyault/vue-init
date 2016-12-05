@@ -14,6 +14,7 @@ This is my solution to the problem that is modern web stacks. This should serve 
 ## How to use:
 ``` bash
 git clone <this repo> <dir>
+cd <dir>
 yarn install
 yarn start
 ```
