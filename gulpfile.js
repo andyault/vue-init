@@ -90,3 +90,8 @@ gulp.task('node-watch', ['node'], () => {
 
 //done :)
 gulp.task('default', ['webpack-watch', 'node-watch']);
+
+//clean up after ourselves
+process.on('exit', () => {
+	if(node) node.kill();
+});
