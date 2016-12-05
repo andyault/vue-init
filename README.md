@@ -13,7 +13,7 @@ This is my solution to the problem that is modern web stacks. This should serve 
   
 ## How to use:
 ``` bash
-git clone https://github.com/andyault/vue-init.git
+git clone <this repo> <dir>
 yarn install
 yarn start
 ```
