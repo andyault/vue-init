@@ -13,10 +13,11 @@ This is my solution to the problem that is modern web stacks. This should serve 
   
 ## How to use:
 ``` bash
-git clone <this repo> <dir>
-cd <dir>
-yarn install
-yarn start
+git clone <this repo> <dir>  # download this repo
+cd <dir>                     # enter new directory
+vim package.json             # change name/desc/etc.
+yarn upgrade                 # upgrade and install dependencies
+yarn start                   # that's it!
 ```
   
 ## Todo: 
